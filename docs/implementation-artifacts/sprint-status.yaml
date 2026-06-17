@@ -1,0 +1,34 @@
+# Sprint Status Tracking — store_management_hub
+# Generated: 2026-06-14
+# Source: docs/planning-artifacts/epics.md
+#
+# STATUS DEFINITIONS:
+#   backlog       - Story identified, not yet contextualized into a story file
+#   ready-for-dev - Story file created with full context, ready to implement
+#   in-progress   - Implementation underway
+#   review        - Implementation complete, under code review
+#   done          - Reviewed and accepted
+#
+# Epic keys use pattern: epic-<n>
+# Story keys use pattern: <epic>-<story>-<slug>
+
+last_updated: 2026-06-17
+
+development_status:
+  epic-1: in-progress
+  1-1-order-creation-with-modifiers: done
+  1-2-order-type-table-name-assignment: backlog
+  1-3-fire-hold-refire-orders: backlog
+  1-4-take-payment-cash-digital: backlog
+  1-5-split-payments-idempotency: backlog
+  1-6-fulfillment-progression-waste: backlog
+  1-7-inventory-consumption-at-confirmation: backlog
+  1-8-close-order-free-table: backlog
+  1-9-void-before-payment: backlog
+  1-10-refund-reversing-transaction: backlog
+  1-11-comp-discount-authorization: backlog
+  1-12-shift-drawer-reconciliation: backlog
+  1-13-branch-attribution-business-day: backlog
+
+  epic-2: backlog
+  epic-3: backlog
