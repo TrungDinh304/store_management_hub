@@ -276,10 +276,9 @@ max_frequency = "5s"
 # uri = "pg-functions://postgres/auth/before-user-created-hook"
 
 # This hook runs before a token is issued and allows you to add additional claims based on the authentication method used.
-# Injects branch_id/role into the JWT from app.user_account (Story 1-1 tenant seam).
-[auth.hook.custom_access_token]
-enabled = true
-uri = "pg-functions://postgres/public/custom_access_token_hook"
+# [auth.hook.custom_access_token]
+# enabled = true
+# uri = "pg-functions://<database>/<schema>/<hook_name>"
 
 # Configure one of the supported SMS providers: `twilio`, `twilio_verify`, `messagebird`, `textlocal`, `vonage`.
 [auth.sms.twilio]

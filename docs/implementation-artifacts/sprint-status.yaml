@@ -12,12 +12,12 @@
 # Epic keys use pattern: epic-<n>
 # Story keys use pattern: <epic>-<story>-<slug>
 
-last_updated: 2026-06-17
+last_updated: 2026-06-21
 
 development_status:
   epic-1: in-progress
   1-1-order-creation-with-modifiers: done
-  1-2-order-type-table-name-assignment: backlog
+  1-2-order-type-table-name-assignment: done
   1-3-fire-hold-refire-orders: backlog
   1-4-take-payment-cash-digital: backlog
   1-5-split-payments-idempotency: backlog
